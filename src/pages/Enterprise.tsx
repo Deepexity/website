@@ -96,10 +96,10 @@ const Enterprise = () => {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="space-y-16">
             {/* Talent Access Section */}
-            <Card className="shadow-lg border-0">
+            <Card className="shadow-soft border-0">
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4 mb-8">
-                  <Users className="w-10 h-10 text-purple-500 mt-1" />
+                  <Users className="w-8 h-8 text-accent mt-1"/>
                   <div className="w-full">
                     <h2 className="text-3xl font-bold text-gray-800 mb-6">
                       Access the best talented experts in your desired field
@@ -136,7 +136,7 @@ const Enterprise = () => {
             <Card className="shadow-lg border-0">
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4 mb-8">
-                  <Briefcase className="w-10 h-10 text-blue-500 mt-1" />
+                  <Briefcase className="w-8 h-8 text-accent mt-1" />
                   <div className="w-full">
                     <h2 className="text-3xl font-bold text-gray-800 mb-6">
                       Access jobs with the world's leading enterprises
@@ -173,7 +173,7 @@ const Enterprise = () => {
             <Card className="shadow-lg border-0">
               <CardContent className="p-8">
                 <div className="flex items-start space-x-4 mb-6">
-                  <Rocket className="w-10 h-10 text-red-500 mt-1" />
+                  <Rocket className="w-8 h-8 text-accent mt-1" />
                   <div>
                     <h2 className="text-3xl font-bold text-gray-800 mb-6">How Our Enterprise Network Works</h2>
                     <div className="space-y-6">

@@ -29,13 +29,13 @@ const FAQPage = () => {
             {/* General Questions */}
             <Card className="shadow-soft">
               <CardContent className="p-8">
-                <div className="flex items-center space-x-8 mb-6">
-                  <HelpCircle className="w-7 h-7 text-accent flex-shrink-0" />
+                <div className="flex items-start space-x-4 mb-4">
+                  <HelpCircle className="w-6 h-6 text-accent mt-1" />
                   <div>
                     <h2 className="text-2xl font-bold text-card-foreground">General Questions</h2>
                   </div>
                 </div>
-                <div className="space-y-8 pl-16">
+                <div className="space-y-8 pl-1">
                   <div>
                     <h3 className="text-xl font-semibold text-card-foreground mb-3">What is Deepexity?</h3>
                     <p className="text-muted-foreground text-justify">
@@ -65,13 +65,13 @@ const FAQPage = () => {
             {/* For Clients */}
             <Card className="shadow-soft">
               <CardContent className="p-8">
-                <div className="flex items-center space-x-8 mb-6">
-                  <Briefcase className="w-7 h-7 text-accent flex-shrink-0" />
+                <div className="flex items-start space-x-4 mb-4">
+                  <Briefcase className="w-6 h-6 text-accent mt-1" />
                   <div>
                     <h2 className="text-2xl font-bold text-card-foreground">For Clients</h2>
                   </div>
                 </div>
-                <div className="space-y-8 pl-16">
+                <div className="space-y-8 pl-1">
                   <div>
                     <h3 className="text-xl font-semibold text-card-foreground mb-3">What types of projects do you handle?</h3>
                     <p className="text-muted-foreground text-justify">
@@ -100,13 +100,13 @@ const FAQPage = () => {
             {/* For Freelancers */}
             <Card className="shadow-soft">
               <CardContent className="p-8">
-                <div className="flex items-center space-x-8 mb-6">
-                  <Users className="w-7 h-7 text-accent flex-shrink-0" />
+                <div className="flex items-center space-x-4 mb-4">
+                  <Users className="w-6 h-6 text-accent mt-1" />
                   <div>
                     <h2 className="text-2xl font-bold text-card-foreground">For Freelancers</h2>
                   </div>
                 </div>
-                <div className="space-y-8 pl-16">
+                <div className="space-y-8 pl-1">
                   <div>
                     <h3 className="text-xl font-semibold text-card-foreground mb-3">How are projects assigned to freelancers?</h3>
                     <p className="text-muted-foreground text-justify">
@@ -135,13 +135,13 @@ const FAQPage = () => {
             {/* Security & Trust */}
             <Card className="shadow-soft">
               <CardContent className="p-8">
-                <div className="flex items-center space-x-8 mb-6">
-                  <Shield className="w-7 h-7 text-accent flex-shrink-0" />
+                <div className="flex items-center space-x-4 mb-4">
+                  <Shield className="w-6 h-6 text-accent mt-1" />
                   <div>
                     <h2 className="text-2xl font-bold text-card-foreground">Security & Trust</h2>
                   </div>
                 </div>
-                <div className="space-y-8 pl-16">
+                <div className="space-y-8 pl-1">
                   <div>
                     <h3 className="text-xl font-semibold text-card-foreground mb-3">How does Deepexity ensure project confidentiality?</h3>
                     <p className="text-muted-foreground text-justify">

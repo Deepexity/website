@@ -19,7 +19,7 @@ const ContactSection = () => {
     e.preventDefault();
     setIsLoading(true);
 
-    const FORMSPREE_FORM_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID || "default_id";
+    const FORMSPREE_FORM_ID = import.meta.env.VITE_FORMSPREE_ID || "default_id";
 
     try {
       const response = await fetch(`https://formspree.io/f/${FORMSPREE_FORM_ID}`, {
@@ -70,7 +70,8 @@ const ContactSection = () => {
       icon: Mail,
       title: "Email Us",
       content: "support@deepexity.com",
-      description: "Send us an email anytime"
+      description: "Send us an email anytime",
+      action: () => window.location.href = "mailto:support@deepexity.com"
     },
     {
       icon: DiscordIconBlue,
